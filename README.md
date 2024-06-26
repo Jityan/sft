@@ -1,6 +1,6 @@
 # SFT: Few-Shot Learning via Self-supervised Feature Fusion with Transformer
 
-This repository contains the **pytorch** code for the under review paper: "SFT: Few-Shot Learning via Self-supervised Feature Fusion with Transformer" Jit Yan Lim, Kian Ming Lim, Chin Poo Lee, Yong Xuan Tan
+This repository contains the **pytorch** code for the paper: "[SFT: Few-Shot Learning via Self-supervised Feature Fusion with Transformer](https://doi.org/10.1109/ACCESS.2024.3416327)" Jit Yan Lim, Kian Ming Lim, Chin Poo Lee, Yong Xuan Tan
 
 ## Environment
 The code is tested on Windows 10 with Anaconda3 and following packages:
@@ -56,11 +56,27 @@ python test_TL.py --gpu 0 --shot 5 --h-dim 640 --beta 0.5 --gamma 0.5 --dataset 
 ```
 
 
+## Citation
+If you find this repo useful for your research, please consider citing the paper:
+```
+@ARTICLE{10559997,
+  author={Lim, Jit Yan and Lim, Kian Ming and Lee, Chin Poo and Tan, Yong Xuan},
+  journal={IEEE Access}, 
+  title={SFT: Few-Shot Learning via Self-Supervised Feature Fusion With Transformer}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={86690-86703},
+  doi={10.1109/ACCESS.2024.3416327}
+}
+```
+
+
 ## Contacts
 For any questions, please contact: <br/>
 
 Jit Yan Lim (lim.jityan@mmu.edu.my) <br/>
-Kian Ming Lim (kmlim@mmu.edu.my)
+Kian Ming Lim (Kian-Ming.Lim@nottingham.edu.cn)
 
 ## Acknowlegements
 This repo is based on **[Prototypical Networks](https://github.com/yinboc/prototypical-network-pytorch)**, **[RFS](https://github.com/WangYueFt/rfs)**, **[SKD](https://github.com/brjathu/SKD)**, and **[FEAT](https://github.com/Sha-Lab/FEAT)**.
