@@ -20,7 +20,8 @@ The code is tested on Windows 10 with Anaconda3 and following packages:
 
     - **CIFARFS**: download from [MetaOptNet](https://github.com/kjunelee/MetaOptNet) and put in `data/cifar-fs` folder.
 
-
+## Pre-trained Models
+[Optional] The pre-trained models can be downloaded from [here](https://drive.google.com/file/d/1sHG7GJIL4z-l6TA3KwTeNtTgw4oORE8A/view?usp=drive_link). Extract and put the content in the `save` folder. To evaluate the model, run the `test_TL.py` file with the proper save path as in the next section.
 
 ## Experiments
 To pre-train on MiniImageNet:<br/>
