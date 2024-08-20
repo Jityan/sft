@@ -76,7 +76,7 @@ If you find this repo useful for your research, please consider citing the paper
 ## Contacts
 For any questions, please contact: <br/>
 
-Jit Yan Lim (lim.jityan@mmu.edu.my) <br/>
+Jit Yan Lim (jityan95@gmail.com) <br/>
 Kian Ming Lim (Kian-Ming.Lim@nottingham.edu.cn)
 
 ## Acknowlegements
